@@ -433,11 +433,7 @@ env/
 ENV/
 .env
 
-# Archivos grandes de Machine Learning (Modelos de PyTorch / YOLO)
-*.pt
-*.pth
-*.onnx
-*.weights
+
 
 # Caché de Python
 **/__pycache__/
