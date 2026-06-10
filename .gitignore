@@ -427,3 +427,34 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# Entornos virtuales (¡Crucial para que no se suban las librerías!)
+venv/
+env/
+ENV/
+.env
+
+# Archivos grandes de Machine Learning (Modelos de PyTorch / YOLO)
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Caché de Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Datos temporales / datasets locales (por si pones fotos de prueba dentro)
+*.jpg
+*.jpeg
+*.png
+*.mp4
+!vaca.jpg # Descomenta o cambia esto si necesitas dejar una foto de ejemplo obligatoria

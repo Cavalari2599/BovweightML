@@ -1,0 +1,36 @@
+# Dependencias BovweightML.
+# Instalar con: pip install -r requirements.txt
+#
+# Nota sobre torch / torchvision:
+# Este archivo NO fija +cu124 para que funcione en CPU y en GPU.
+# - CPU (default, mas portable): pip install -r requirements.txt
+# - GPU NVIDIA con CUDA 12.4 (mas rapido): instala antes torch con el index oficial:
+#     pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu124
+#   y luego: pip install -r requirements.txt
+
+fastapi==0.136.3
+uvicorn==0.48.0
+python-multipart==0.0.29
+pydantic==2.13.4
+pydantic_core==2.46.4
+starlette==1.1.0
+anyio==4.13.0
+h11==0.16.0
+click==8.4.1
+
+torch==2.6.0
+torchvision==0.21.0
+ultralytics==8.4.56
+ultralytics-thop==2.0.19
+
+numpy==2.4.6
+pillow==12.2.0
+opencv-python==4.13.0.92
+matplotlib==3.10.9
+pandas==3.0.3
+scipy==1.17.1
+scikit-learn==1.8.0
+PyYAML==6.0.3
+tqdm==4.67.3
+requests==2.34.2
+psutil==7.2.2
